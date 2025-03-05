@@ -1,4 +1,4 @@
-PUT  http://localhost:8080/events/1
+PUT  https://go-api-69re.onrender.com/events/1
 content-type: application/json
 
 {

@@ -1,4 +1,4 @@
-POST  http://localhost:8080/events
+POST  https://go-api-69re.onrender.com/events
 content-type: application/json
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5ld0BleGFtcGxlLmNvbSIsImV4cCI6MTc0MTA3OTU4MiwidXNlcklkIjoxfQ.vzSTN6gyRfK3zqu8ilQknGBY5Qi9ASGR_a7fk5vduew
 

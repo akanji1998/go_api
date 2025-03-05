@@ -1,3 +1,3 @@
 
-DELETE   http://localhost:8080/event/1/register
+DELETE    https://go-api-69re.onrender.com/event/1/register
 Authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5ldzJAZXhhbXBsZS5jb20iLCJleHAiOjE3NDEwNzk3OTYsInVzZXJJZCI6Mn0.Lxv_nngR8-BdIl3K1y2GfwuqAhYOqO3GdJ0Mkj0f5Cc

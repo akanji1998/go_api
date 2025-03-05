@@ -1,6 +1,8 @@
 package main
 
 import (
+	"log"
+	"os"
 
 	"example.com/rest-api/db"
 	"example.com/rest-api/routes"
@@ -12,5 +14,13 @@ func main()  {
 	server := gin.Default()
 	gin.SetMode(gin.ReleaseMode)
 	routes.RegisterRoute(server)
-server.Run(":8080") //localhost:8080
+	
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	if err := server.Run(":" + port); err != nil {
+        log.Panicf("error: %s", err)
+	}
+// server.Run(":8080") //localhost:8080
 }
