@@ -10,6 +10,7 @@ import (
 func main()  {
 	db.InitDB()
 	server := gin.Default()
+	gin.SetMode(gin.ReleaseMode)
 	routes.RegisterRoute(server)
 server.Run(":8080") //localhost:8080
 }
